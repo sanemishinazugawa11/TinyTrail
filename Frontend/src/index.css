@@ -1,1 +1,15 @@
+
+@font-face {
+    font-family: brolimo ;
+    src: url("./public/Font/brolimo/BrolimoRegular.ttf")format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @import "tailwindcss";
+
+
+
+@theme { 
+    --font-brolimo : brolimo , "sans-serif"
+}
