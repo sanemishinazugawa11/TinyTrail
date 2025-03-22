@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 async function connect(){
     try{
 
-        await mongoose.connect('mongodb+srv://ksbhuvi2004:0HWE4DwK4HxrXi5K@cluster0.rfv5q.mongodb.net/TinyTrail')
+        await mongoose.connect('Your_mongo_db_url')
         console.log('connected to database');
 
     }catch(e){
